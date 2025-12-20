@@ -177,45 +177,6 @@ body {
     margin-top: 0.5rem !important;
 }
 
-/* Apps Section */
-#content #applinks {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-    gap: 2rem;
-    margin-top: 2rem;
-    text-align: center;
-}
-
-#content #applinks .crop {
-    width: 120px;
-    height: 120px;
-    overflow: hidden;
-    border-radius: 24px;
-    border: 1px solid var(--border-color);
-    display: inline-block;
-    transition: all 0.3s ease;
-    background: var(--bg-card);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-}
-
-#content #applinks .crop:hover {
-    transform: translateY(-8px) scale(1.05);
-    border-color: var(--accent);
-    box-shadow:
-        0 20px 40px rgba(0, 0, 0, 0.4),
-        0 0 30px rgba(59, 130, 246, 0.2);
-}
-
-#content #applinks .crop img {
-    margin-left: -50px;
-    filter: grayscale(100%) brightness(0.8);
-    transition: filter 0.3s ease;
-}
-
-#content #applinks .crop:hover img {
-    filter: grayscale(0%) brightness(1);
-}
-
 /* Resume Links */
 #content a {
     color: var(--accent);
