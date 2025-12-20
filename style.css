@@ -196,7 +196,7 @@ body {
 
 #content ul li {
     margin: 1rem 0;
-    padding: 1rem 1.5rem;
+    padding: 0;
     background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: 12px;
@@ -206,6 +206,18 @@ body {
 #content ul li:hover {
     border-color: var(--accent);
     transform: translateX(8px);
+}
+
+#content ul li a {
+    display: block;
+    padding: 1rem 1.5rem;
+    color: var(--text-primary);
+    text-decoration: none;
+    width: 100%;
+}
+
+#content ul li a:hover {
+    color: var(--text-primary);
 }
 
 /* Footer */
