@@ -277,6 +277,12 @@ body {
     filter: invert(1);
 }
 
+/* Fix LinkedIn logo centering (image is non-square 39x30) */
+#socialmedia img[alt="LinkedIn"] {
+    object-position: center center;
+    transform: translateX(-1px);
+}
+
 #copyright {
     display: block;
     margin-top: 1.5rem;
