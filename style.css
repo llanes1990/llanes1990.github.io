@@ -277,10 +277,10 @@ body {
     filter: invert(1);
 }
 
-/* Fix LinkedIn logo centering (image is non-square 39x30) */
+/* LinkedIn logo is non-square (39x30); constrain to square to let object-fit center it */
 #socialmedia img[alt="LinkedIn"] {
+    object-fit: contain;
     object-position: center center;
-    transform: translateX(-1px);
 }
 
 #copyright {
