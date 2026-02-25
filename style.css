@@ -277,12 +277,6 @@ body {
     filter: invert(1);
 }
 
-/* LinkedIn logo is non-square (39x30); constrain to square to let object-fit center it */
-#socialmedia img[alt="LinkedIn"] {
-    object-fit: contain;
-    object-position: center center;
-}
-
 #copyright {
     display: block;
     margin-top: 1.5rem;
