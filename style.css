@@ -277,10 +277,10 @@ body {
     filter: invert(1);
 }
 
-/* Anchor from top-left so the main "in" square (30×30) fills the box and the ® mark is clipped */
+/* Offset so the main "in" square (left 30 of 39px) appears centered; ® stays visible */
 #socialmedia img[alt="LinkedIn"] {
-    object-fit: cover;
-    object-position: left top;
+    position: relative;
+    left: 2.8px;
 }
 
 #copyright {
